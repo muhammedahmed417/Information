@@ -51,8 +51,8 @@ my_dict = {
     "Nurlan": {"Phone": "0526262626", "Instagram": "nurlan_nr", "Facebook": "nurlan.fb", "Computer": "Dell Inspiron"},
 }
 
-user = input("Kimin haqqinda melumat isteyirsiniz")
-melumat = input("sexsin hansi melumatini isterdiniz")
+user = input("About whom information is requested?")
+melumat = input("What information is required from the individual?")
 value = my_dict[user]
 cavab = value[melumat]
 print(cavab)
